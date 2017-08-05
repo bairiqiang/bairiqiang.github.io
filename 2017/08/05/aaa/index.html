@@ -6,14 +6,18 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | 白日强的博客</title>
+  <title>hexo + github + node搭建博客（二） | 白日强的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="白日强的博客">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="hexo博客优化1.前言接着上一篇文章，做一下博客的优化以及一些发表博客常用的命令，相信大家通过第一篇博客已经搭好了属于自己的博客，那么接下来，做一些页面上的优化！">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo + github + node搭建博客（二）">
+<meta property="og:url" content="http://yoursite.com/2017/08/05/aaa/index.html">
 <meta property="og:site_name" content="白日强的博客">
+<meta property="og:description" content="hexo博客优化1.前言接着上一篇文章，做一下博客的优化以及一些发表博客常用的命令，相信大家通过第一篇博客已经搭好了属于自己的博客，那么接下来，做一些页面上的优化！">
+<meta property="og:updated_time" content="2017-08-05T02:52:40.990Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="白日强的博客">
+<meta name="twitter:title" content="hexo + github + node搭建博客（二）">
+<meta name="twitter:description" content="hexo博客优化1.前言接着上一篇文章，做一下博客的优化以及一些发表博客常用的命令，相信大家通过第一篇博客已经搭好了属于自己的博客，那么接下来，做一些页面上的优化！">
   
     <link rel="alternative" href="/atom.xml" title="白日强的博客" type="application/atom+xml">
   
@@ -141,114 +145,184 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-aaa" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      hexo + github + node搭建博客（二）
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/08/05/aaa/" class="archive-article-date">
+
+        
+        <a href="/2017/08/05/aaa/" class="archive-article-date">
   	<time datetime="2017-08-05T01:07:12.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-05</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/08/05/aaa/">hexo + github + node搭建博客（二）</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="hexo博客优化"><a href="#hexo博客优化" class="headerlink" title="hexo博客优化"></a>hexo博客优化</h2><h3 id="1-前言"><a href="#1-前言" class="headerlink" title="1.前言"></a>1.前言</h3><p>接着上一篇文章，做一下博客的优化以及一些发表博客常用的命令，相信大家通过第一篇博客已经搭好了属于自己的博客，那么接下来，做一些页面上的优化！<br><a id="more"></a></p>
+<h3 id="2-选择自己喜欢的主题"><a href="#2-选择自己喜欢的主题" class="headerlink" title="2.选择自己喜欢的主题"></a>2.选择自己喜欢的主题</h3><p>这里有<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">各种各样主题</a>，点击链接选择自己喜欢的，每个主题都有详细的说明，自己看说明更换自己的主题就行！<br>我的博客用的<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">Yilia</a>,自我感觉还是很良好的，哈哈！<br>以下是几个个人认为比较好的主题，可以自己选择一下： <a href="https://github.com/daisygao/hexo-themes-cover" target="_blank" rel="external">Cover</a>、<a href="https://github.com/SuperKieran/TKL" target="_blank" rel="external">TKL</a>、<a href="https://github.com/yunlzheng/hexo-themes-writing" target="_blank" rel="external">Writing</a></p>
+<h3 id="3-接下来我简要说一下我现在博客主题的配置方法"><a href="#3-接下来我简要说一下我现在博客主题的配置方法" class="headerlink" title="3.接下来我简要说一下我现在博客主题的配置方法"></a>3.接下来我简要说一下我现在博客主题的配置方法</h3><blockquote>
+<p>1.安装</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia</div></pre></td></tr></table></figure>
+<blockquote>
+<p>2.配置</p>
+</blockquote>
+<p>修改hexo根目录下的 _config.yml ： theme: yilia</p>
+<blockquote>
+<p>3.更新</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd themes/yilia</div><div class="line">git pull</div></pre></td></tr></table></figure>
+<blockquote>
+<p>4.配置_config.yml</p>
+</blockquote>
+<p>主题配置文件在主目录下的_config.yml，<a href="">\themes\yilia\ _config.yml</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div></pre></td><td class="code"><pre><div class="line"># Header</div><div class="line"></div><div class="line">menu:</div><div class="line">  主页: /</div><div class="line">  随笔: /tags/随笔/</div><div class="line"></div><div class="line"># SubNav</div><div class="line">subnav:</div><div class="line">  github: &quot;&quot;</div><div class="line">  weibo: &quot;&quot;</div><div class="line">  zhihu: &quot;&quot;</div><div class="line">  #rss: &quot;#&quot;</div><div class="line">  #qq: &quot;#&quot;</div><div class="line">  #weixin: &quot;#&quot;</div><div class="line">  #jianshu: &quot;#&quot;</div><div class="line">  #douban: &quot;#&quot;</div><div class="line">  #segmentfault: &quot;#&quot;</div><div class="line">  #bilibili: &quot;#&quot;</div><div class="line">  #acfun: &quot;#&quot;</div><div class="line">  #mail: &quot;&quot;</div><div class="line">  #facebook: &quot;#&quot;</div><div class="line">  #google: &quot;#&quot;</div><div class="line">  #twitter: &quot;#&quot;</div><div class="line">  #linkedin: &quot;#&quot;</div><div class="line"></div><div class="line">rss: /atom.xml</div><div class="line"></div><div class="line"># 是否需要修改 root 路径</div><div class="line"># 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，</div><div class="line"># 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。</div><div class="line">root: </div><div class="line"></div><div class="line"># Content</div><div class="line"></div><div class="line"># 文章太长，截断按钮文字</div><div class="line">excerpt_link: more</div><div class="line"># 文章卡片右下角常驻链接，不需要请设置为false</div><div class="line">show_all_link: &apos;展开全文&apos;</div><div class="line"># 数学公式</div><div class="line">mathjax: false</div><div class="line"># 是否在新窗口打开链接</div><div class="line">open_in_new: false</div><div class="line"></div><div class="line"># 打赏</div><div class="line"># 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏</div><div class="line">reward_type: 2</div><div class="line"># 打赏wording</div><div class="line">reward_wording: &apos;谢谢你请我喝酒&apos;</div><div class="line"># 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg</div><div class="line">alipay: </div><div class="line"># 微信二维码图片地址</div><div class="line">weixin: </div><div class="line"></div><div class="line"># 目录</div><div class="line"># 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录</div><div class="line">toc: 1</div><div class="line"># 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false</div><div class="line">toc_hide_index: true</div><div class="line"># 目录为空时的提示</div><div class="line">toc_empty_wording: &apos;目录，不存在的…&apos;</div><div class="line"></div><div class="line"># 是否有快速回到顶部的按钮</div><div class="line">top: true</div><div class="line"></div><div class="line"># Miscellaneous</div><div class="line">baidu_analytics: &apos;&apos;</div><div class="line">google_analytics: &apos;&apos;</div><div class="line">favicon: /favicon.png</div><div class="line"></div><div class="line">#你的头像url</div><div class="line">avatar: </div><div class="line"></div><div class="line">#是否开启分享</div><div class="line">share_jia: true</div><div class="line"></div><div class="line">#评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus 不需要使用某项，直接设置值为false，或注释掉</div><div class="line">#具体请参考wiki：https://github.com/litten/hexo-theme-yilia/wiki/</div><div class="line"></div><div class="line">#1、多说</div><div class="line">duoshuo: false</div><div class="line"></div><div class="line">#2、网易云跟帖</div><div class="line">wangyiyun: false</div><div class="line"></div><div class="line">#3、畅言</div><div class="line">changyan_appid: false</div><div class="line">changyan_conf: false</div><div class="line"></div><div class="line">#4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的</div><div class="line">disqus: false</div><div class="line"></div><div class="line"># 样式定制 - 一般不需要修改，除非有很强的定制欲望…</div><div class="line">style:</div><div class="line">  # 头像上面的背景颜色</div><div class="line">  header: &apos;#4d4d4d&apos;</div><div class="line">  # 右滑板块背景</div><div class="line">  slider: &apos;linear-gradient(200deg,#a0cfe4,#e8c37e)&apos;</div><div class="line"></div><div class="line"># slider的设置</div><div class="line">slider:</div><div class="line">  # 是否默认展开tags板块</div><div class="line">  showTags: false</div><div class="line"></div><div class="line"># 智能菜单</div><div class="line"># 如不需要，将该对应项置为false</div><div class="line"># 比如</div><div class="line">#smart_menu:</div><div class="line">#  friends: false</div><div class="line">smart_menu:</div><div class="line">  innerArchive: &apos;所有文章&apos;</div><div class="line">  aboutme: &apos;关于我&apos;</div><div class="line">  #friends: &apos;友链&apos;</div><div class="line"></div><div class="line">friends:</div><div class="line">  友情链接1: http://localhost:4000/</div><div class="line">  友情链接2: http://localhost:4000/</div><div class="line">  友情链接3: http://localhost:4000/</div><div class="line">  友情链接4: http://localhost:4000/</div><div class="line">  友情链接5: http://localhost:4000/</div><div class="line">  友情链接6: http://localhost:4000/</div><div class="line"></div><div class="line">aboutme: 被人深深爱着讲给你力量&lt;/br&gt;深深爱着别人讲给你勇气</div></pre></td></tr></table></figure>
+<p>友情提示：<br>头像，微信，支付宝支付吗都放到这个路径的img下面\yilia\source\img</p>
+<h3 id="4-常用的一些命令"><a href="#4-常用的一些命令" class="headerlink" title="4.常用的一些命令"></a>4.常用的一些命令</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">hexo new &quot;postName&quot; #新建文章</div><div class="line">hexo new page &quot;pageName&quot; #新建页面</div><div class="line">hexo generate #生成静态页面至public目录</div><div class="line">hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server）</div><div class="line">hexo deploy #将.deploy目录部署到GitHub</div><div class="line">hexo help  #查看帮助</div><div class="line">hexo version  #查看Hexo的版本</div></pre></td></tr></table></figure>
 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我喝酒<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/zfb.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/wx.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/08/05/aaa/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/07/22/大白/" class="archive-article-date">
-  	<time datetime="2017-07-22T15:04:48.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-07-22</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2017/07/22/大白/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">hexo + github + node搭建博客</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/07/22/大白/">hexo + github + node搭建博客</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">hexo博客</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/07/22/hello-world/" class="archive-article-date">
-  	<time datetime="2017-07-22T03:53:43.377Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-07-22</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/07/22/hello-world/">Hello World</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-  
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -271,8 +345,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
